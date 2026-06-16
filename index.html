@@ -1,22 +1,270 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deep Singh Studios — Corporate Event Photography · Metro Detroit</title>
-    <meta name="description" content="Corporate headshot and event photographer serving businesses, executives, and teams across Metro Detroit since 2015." />
-    <link rel="icon" href="./images/icon.png" type="image/png" sizes="32x32" />
-    <link rel="shortcut icon" href="./images/icon.png" type="image/png" sizes="32x32" />
-    <link rel="apple-touch-icon" href="./images/apple-icon.png" sizes="180x180" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="./index-DqDC0Bnt.js"></script>
-    <link rel="stylesheet" crossorigin href="./index-M1oOKCdV.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Singh Studios — Corporate Event Photography · Metro Detroit</title>
+  <meta name="description" content="Corporate headshot and event photographer serving businesses, executives, and teams across Metro Detroit since 2015." />
+  <meta name="keywords" content="corporate photography, headshots, event photography, Metro Detroit, executive portraits, team photos" />
+  <meta name="author" content="Deep Singh Studios" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Deep Singh Studios — Corporate Event Photography · Metro Detroit" />
+  <meta property="og:description" content="Corporate headshot and event photographer serving businesses, executives, and teams across Metro Detroit since 2015." />
+  <meta property="og:image" content="https://deepsinghstudios.com/images/hero-main.jpg" />
+  <meta property="og:url" content="https://deepsinghstudios.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Deep Singh Studios — Corporate Event Photography" />
+  <meta name="twitter:description" content="Corporate headshot and event photographer serving Metro Detroit since 2015." />
+  <meta name="twitter:image" content="https://deepsinghstudios.com/images/hero-main.jpg" />
+  <link rel="canonical" href="https://deepsinghstudios.com/" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180" />
+  <link rel="stylesheet" href="style.css?v=8" />
+  <!-- Google tag (gtag.js) - Deep Singh Studios Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZNQ40KPMR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0ZNQ40KPMR');
+  </script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <a class='header-brand' href='/'>
+    <img src="images/lion-logo.png" alt="Deep Singh Studios" />
+    <span>DEEP SINGH STUDIOS</span>
+  </a>
+  <button class="nav-toggle" onclick="document.querySelector('.header-nav').classList.toggle('active')">☰</button>
+  <nav class="header-nav">
+    <a href="#works">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href='/pricing'>Pricing</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a class='header-cta' href='/booking'>Book Now</a>
+  </nav>
+  
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-right">
+    <img src="images/event-24.jpg" alt="Deep Singh Studios" />
+  </div>
+  <div class="hero-left">
+    <p class="hero-eyebrow">Volume Headshots, Conferences &amp; Galas &middot; Metro Detroit &middot; Est. 2015</p>
+    <h1 class="hero-title">Your team,<br>your office, <em>$100 each.</em></h1>
+    <p class="hero-sub">I bring the studio to you — backdrop, lighting, and direction. On-site volume headshots starting at $100 per person. Event coverage for conferences, galas, and corporate gatherings across Metro Detroit, Toledo, Grand Rapids, and Fort Wayne. No travel fees.</p>
+    <div class="hero-btns">
+      <a class='btn btn-filled' href='/booking'>Book Your Session</a>
+      <a class='btn' href='/pricing'>View Pricing</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">2015</div><div class="stat-label">Established</div></div>
+      <div><div class="stat-num">500+</div><div class="stat-label">Sessions Completed</div></div>
+      <div><div class="stat-num">48hr</div><div class="stat-label">Avg. Turnaround</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio" id="works">
+  <div class="section-inner">
+    <div class="portfolio-header">
+      <div>
+        <h2 class="section-title">Selected Work</h2>
+        <div class="filters">
+          <a class='filter-btn' href='/portfolio-individual'>Individual</a>
+          <a class='filter-btn' href='/portfolio-team'>Team</a>
+          <a class='filter-btn' href='/portfolio-events'>Events</a>
+        </div>
+      </div>
+      <span style="font-size:12px;letter-spacing:0.18em;color:var(--muted);text-transform:uppercase;">Portfolio</span>
+    </div>
+    <div class="portfolio-grid">
+      <a class='portfolio-card' href='/portfolio-events'>
+        <div class="portfolio-img-wrap landscape">
+          <img src="images/event-19.jpg" alt="Galas" />
+          <div class="portfolio-cat-overlay">Galas</div>
+        </div>
+        <div class="portfolio-caption">
+          <div>
+            <div class="portfolio-name">Annual Gala</div>
+          </div>
+          <span class="portfolio-view">View &rarr;</span>
+        </div>
+      </a>
+      <a class='portfolio-card' href='/portfolio-events'>
+        <div class="portfolio-img-wrap landscape">
+          <img src="images/event-03.jpg" alt="Corporate Events" />
+          <div class="portfolio-cat-overlay">Events & Conferences</div>
+        </div>
+        <div class="portfolio-caption">
+          <div>
+            <div class="portfolio-name">Corporate Events</div>
+          </div>
+          <span class="portfolio-view">View &rarr;</span>
+        </div>
+      </a>
+      <a class='portfolio-card' href='/portfolio-individual'>
+        <div class="portfolio-img-wrap portrait">
+          <img src="images/headshot-d-04.jpg" alt="Executive Portrait" />
+          <div class="portfolio-cat-overlay">Individual Headshots</div>
+        </div>
+        <div class="portfolio-caption">
+          <div>
+            <div class="portfolio-name">Executive Portrait</div>
+          </div>
+          <span class="portfolio-view">View &rarr;</span>
+        </div>
+      </a>
+      <a class='portfolio-card' href='/portfolio-team'>
+        <div class="portfolio-img-wrap portrait">
+          <img src="images/headshot-w-04.jpg" alt="Corporate Team Day" />
+          <div class="portfolio-cat-overlay">Team Day Headshots</div>
+        </div>
+        <div class="portfolio-caption">
+          <div>
+            <div class="portfolio-name">Corporate Team Day</div>
+          </div>
+          <span class="portfolio-view">View &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-inner">
+    <div class="services-header">
+      <div>
+        <div class="section-label"><span>What We Offer</span></div>
+        <h2 class="services-title">Our Services</h2>
+        <p class="services-intro">From a single executive portrait to a 200-person team day, every engagement is handled with the same discipline: arrive prepared, work efficiently, deliver images that make your team look like the professionals they are.</p>
+      </div>
+    </div>
+    <div class="services-grid">
+      <div class="service-item"><span class="service-num">01</span><div class="service-body"><h3>Individual Headshots</h3><p>Studio-quality portraits — on-site or at our location. Delivered within 48 hours.</p></div></div>
+      <div class="service-item"><span class="service-num">02</span><div class="service-body"><h3>Team Day Headshots</h3><p>Mobile studio setup at your office. Consistent lighting, same-day delivery.</p></div></div>
+      <div class="service-item"><span class="service-num">03</span><div class="service-body"><h3>Events & Conferences</h3><p>Full-day coverage of conferences, galas, and brand activations. Every moment documented.</p></div></div>
+      <div class="service-item"><span class="service-num">04</span><div class="service-body"><h3>On-Site Sessions</h3><p>We bring the studio to you — backdrop, lighting, and direction included.</p></div></div>
+      <div class="service-item"><span class="service-num">05</span><div class="service-body"><h3>Online Gallery</h3><p>Private client portal with instant downloads. Share with your team, PR lead, or communications department in one click.</p></div></div>
+      <div class="service-item"><span class="service-num">06</span><div class="service-body"><h3>Same-Day Social</h3><p>Curated selects delivered within hours for LinkedIn, press releases, and web updates. Posted before your event ends.</p></div></div>
+      <div class="service-item"><span class="service-num">07</span><div class="service-body"><h3>Corporate Storytelling</h3><p>Behind-the-scenes documentation for annual reports, internal communications, and company culture.</p></div></div>
+      <div class="service-item"><span class="service-num">08</span><div class="service-body"><h3>Nationwide Available</h3><p>Based in Metro Detroit. Available for travel nationwide.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-left">
+    <img src="images/headshot-w-01.jpg" alt="Deep Singh Studios" />
+    <div class="contact-left-overlay"></div>
+    <div class="contact-left-content">
+      <h2>Your event deserves<br>to be remembered.</h2>
+      <p>DEEP SINGH STUDIOS &middot; Contact &amp; Inquiries</p>
+    </div>
+  </div>
+  <div class="contact-right">
+    <div class="contact-form">
+      <div class="section-label"><span>Get in Touch</span></div>
+      <h3>Book a session or send us a note.</h3>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <p style="display:none"><input name="bot-field" /></p>
+        <div class="form-row">
+          <div class="form-group"><label>First Name *</label><input type="text" name="firstName" placeholder="Jane" required /></div>
+          <div class="form-group"><label>Last Name *</label><input type="text" name="lastName" placeholder="Doe" required /></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Work Email *</label><input type="email" name="email" placeholder="jane@company.com" required /></div>
+          <div class="form-group"><label>Company</label><input type="text" name="company" placeholder="Nexus Corp" /></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Service Needed *</label>
+            <select name="serviceType" required>
+              <option value="">Select a service</option>
+              <option>Individual Headshots</option>
+              <option>Team Day Headshots</option>
+              <option>Events & Conferences</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Preferred Date</label><input type="date" name="preferredDate" /></div>
+        </div>
+        <div class="form-group"><label>About Your Project</label><textarea name="message" placeholder="Event date, location, team size, special requirements..."></textarea></div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="section-label"><span>About the Studio</span></div>
+    <h2 class="section-title">About Deep Singh Studios</h2>
+    <blockquote class="about-quote">
+      <p>You hire a photographer so you don't have to babysit one. I show up prepared, work without drama, and deliver images that serve their purpose — professional, usable, and ready when you need them.</p>
+    </blockquote>
+    <div class="about-tags">
+      <span class="tag">Disciplined</span>
+      <span class="tag">Professional</span>
+      <span class="tag">Dependable</span>
+    </div>
+    <p>I started Deep Singh Studios in 2015 after realizing most corporate photography felt transactional — show up, shoot, deliver, done. I wanted to build something different: a practice where discipline and precision produce images that actually serve a purpose.</p>
+    <p>That means arriving early. It means understanding your event schedule before I step through the door. It means capturing the keynote that just got moved to a different room, the candid networking moment that wasn't on the shot list, and the executive portrait your CEO needs before she catches her flight. I do the job required — and the ten things you didn't think to ask for.</p>
+    <h3>Available Nationwide</h3>
+    <p>Based in Metro Detroit and <span class="highlight">available to travel nationwide.</span> Whether your conference is in Houston, your headquarters is in New York, your summit is in Los Angeles, or your team event is in Chicago — I bring the full studio setup to you. Dallas. San Francisco. Atlanta. Denver. Boston. Wherever your business takes you.</p>
+    <p>From a single executive portrait to a 500-person corporate event, the approach is the same: arrive prepared, work efficiently, deliver images that make your team and your organization look like the professionals they are.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Individual Headshots</a>
+      <a href="#services">Team Day Headshots</a>
+      <a href="#services">Events & Conferences</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Studio</h4>
+      <a href="#works">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>hello@deepsinghstudios.com</p>
+      <p>Metro Detroit &middot; Troy &middot; Southfield</p>
+      <p>Available Nationwide</p>
+    </div>
+    <div class="footer-col">
+      <h4>Social</h4>
+      <p>Instagram: @deepsinghstudios</p>
+      <p>LinkedIn: Deep Singh Studios</p>
+    </div>
+  </div>
+  <div class="footer-wordmark">
+    <div class="footer-wordmark-inner">
+      <img src="images/lion-logo.png" alt="" />
+      <span>DEEP SINGH STUDIOS</span>
+    </div>
+  </div>
+  <div class="footer-legal">
+    <p>&copy; 2026 Deep Singh Studios LLC. All rights reserved.</p>
+    <a href='/terms'>Terms of Service</a>
+  </div>
+</footer>
+
+</body>
 </html>
-ENDHTML && \
-echo "Done"
