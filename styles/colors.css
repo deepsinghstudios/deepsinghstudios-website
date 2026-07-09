@@ -1,0 +1,17 @@
+/* Theme Colors - change these values to test any palette */
+:root {
+  --primary: #1B2A4A;
+  --primary-dark: #1B2A4A;
+  --primary-light: #2A3D64;
+  --accent: #C8A96A;
+  --accent-light: #D4BB88;
+  --bg: #FFFFFF;
+  --bg-off: #F5F5F0;
+  --bg-navy: #1B2A4A;
+  --text: #0A0B0D;
+  --text-muted: #6B7280;
+  --text-on-dark: #F5F5F0;
+  --border: #E5E7EB;
+  --white: #FFFFFF;
+  --black: #0A0B0D;
+}
